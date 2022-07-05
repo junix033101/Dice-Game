@@ -9,13 +9,13 @@ function randomRoll() {
     diceImg(playerOneRoll, playerTwoRoll);
 
     if (playerOneRoll > playerTwoRoll && playerOneRoll != playerTwoRoll) {
-        let heading = document.querySelector("h1").innerHTML = "Player One Wins!";
+        let heading = document.querySelector("h1").innerHTML = "&#128681 Player One Wins!";
         console.log(heading);
     } else if (playerOneRoll == playerTwoRoll) {
-        let heading = document.querySelector("h1").innerHTML = "It's a tie!";
+        let heading = document.querySelector("h1").innerHTML = "&#127987 It's a tie!";
         console.log(heading);
     } else {
-        let heading = document.querySelector("h1").innerHTML = "Player Two Wins!";
+        let heading = document.querySelector("h1").innerHTML = "&#128681 Player Two Wins!";
         console.log(heading);
     }
 }
